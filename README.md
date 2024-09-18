@@ -1,6 +1,8 @@
+# Background
 This program sets the video mode in DOS.
 It can be used in setupts where MiSTer is connected to a 15Khz monitor and the font is too small to be readable.
 
+# Usage 
 setvmode XX where XX is the videomode, in hex
 
 0: 40x25 Black and White text (CGA,EGA,MCGA,VGA)
@@ -23,4 +25,6 @@ setvmode XX where XX is the videomode, in hex
 12: 640x480 16 color graphics (VGA)
 13: 320x200 256 color graphics (MCGA,VGA)
 
-The source can be compiled using Turbo C++
+# Compilation 
+
+The source file can be compiled using Turbo C++. 
