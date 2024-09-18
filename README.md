@@ -3,8 +3,9 @@ This program sets the video mode in DOS.
 It can be used in setupts where MiSTer is connected to a 15Khz monitor and the font is too small to be readable.
 
 # Usage 
-1. download SETTVMODE.EXE  
-2. type SETTVMODE XX where XX is the videomode, in hex.  
+1. download SETTVMODE.EXE
+2. type SETTVMODE XX where XX is the videomode, in hex.
+3. You may add SETVMODE to you AUTOEXEC.BAT to have the change automatically applied on startup.
 
 Available video modes are  
 
