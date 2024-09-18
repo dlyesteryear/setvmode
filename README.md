@@ -3,9 +3,11 @@ This program sets the video mode in DOS.
 It can be used in setupts where MiSTer is connected to a 15Khz monitor and the font is too small to be readable.
 
 # Usage 
-setvmode XX where XX is the videomode, in hex
+download SETTVMODE.EXE
+type 
+SETTVMODE XX where XX is the videomode, in hex
 
-0: 40x25 Black and White text (CGA,EGA,MCGA,VGA)
+00: 40x25 Black and White text (CGA,EGA,MCGA,VGA)
 01: 40x25 16 color text (CGA,EGA,MCGA,VGA)
 02: 80x25 16 shades of gray text (CGA,EGA,MCGA,VGA)
 03: 80x25 16 color text (CGA,EGA,MCGA,VGA)
