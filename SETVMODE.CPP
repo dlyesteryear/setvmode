@@ -35,8 +35,7 @@ int main(int argc, char** argv){
   if ((0<=mode)&&(mode<=0x13)){
       _AX=mode;
       geninterrupt(0x10);
-  }
-  else{
+  }else{
     printf("Usage: %s MODE where MODE is one of\n",argv[0]);
     for (int i=0;i<sizeof(descriptions)/sizeof(descriptions[0]);++i){
       printf("%s\n",descriptions[i]);
